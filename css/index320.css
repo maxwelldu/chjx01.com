@@ -113,10 +113,11 @@ section.environment .imgs img {
 }
 footer {
   width: 307px;
-  height: 87px;
+  height: 46px;
   margin-left: 0px;
   margin-top: 20px;
   margin-bottom: 30px;
+  background: url(../img/footer_bg_320.png) no-repeat;
 }
 footer .desc {
   padding-top: 0px;
