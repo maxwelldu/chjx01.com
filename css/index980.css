@@ -1,0 +1,132 @@
+.container {
+  width: 980px;
+}
+header {
+  height: 114px;
+}
+header .logo {
+  width: 212px;
+  padding-top: 16px;
+  padding-left: 65px;
+}
+header .logo .zh {
+  width: 186px;
+  height: 77px;
+}
+header .logo .en {
+  top: 65px;
+  width: 186px;
+}
+header .banner {
+  width: 700px;
+}
+header .banner .triangle {
+  border-bottom: 114px solid #e60201;
+  border-left: 60px solid transparent;
+}
+header .banner .content {
+  width: 640px;
+}
+header .banner .content .word {
+  margin-top: 24px;
+  width: 547px;
+}
+header .banner .content .word .sprit {
+  font-size: 36px;
+  font-weight: bold;
+}
+header .banner .content .word .contact {
+  margin-top: 10px;
+}
+header .banner .content .word .contact i {
+  width: 22px;
+  height: 27px;
+  transform: translate(-10px, 7px);
+}
+header .banner .content .word .contact span {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+header .banner .content .qrcode {
+  width: 86px;
+  padding-top: 16px;
+}
+header .banner .content .qrcode img {
+  width: 75px;
+  height: 75px;
+}
+header .banner .content .qrcode span {
+  width: 75px;
+  font-size: 9px;
+}
+section .title {
+  height: 43px;
+  padding-top: 7px;
+  font-size: 24px;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+section .title .bg {
+  width: fit-content;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 10px;
+}
+section .title .bg span {
+  width: 12px;
+  height: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 12px;
+}
+section.intro {
+  margin-top: 50px;
+}
+section.intro .main {
+  width: 850px;
+  height: 51px;
+  padding-left: 45px;
+  font-size: 19px;
+}
+section.intro .main p {
+  text-shadow: 1px 1px 5px white;
+}
+section.intro .desc {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 871px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+section.machine .imgs img {
+  width: 301px;
+  height: 424px;
+}
+section.shape .imgs img {
+  height: 235px;
+}
+section.environment .imgs img {
+  width: 244px;
+  height: 322px;
+  margin-left: 2px;
+}
+footer {
+  width: 943px;
+  height: 175px;
+  margin-left: 36px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+footer .desc {
+  padding-top: 35px;
+  padding-left: 7px;
+  width: 600px;
+}
+footer .desc .sprit {
+  font-size: 30px;
+}
+footer .desc .address {
+  font-size: 20px;
+  margin-top: 10px;
+}

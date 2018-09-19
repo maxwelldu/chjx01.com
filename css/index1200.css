@@ -1,0 +1,214 @@
+body {
+  background-color: #ecf5f6;
+  color: #6c6f6f;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+header, section{
+  width: 100%;
+  /* border: 1px solid red; */
+  /* background-color: red; */
+  margin-bottom: 20px;
+}
+header {
+  height: 140px;
+}
+header .logo {
+  float: left;
+  width: 260px;
+  padding-top: 20px;
+  padding-left: 80px;
+}
+header .logo .zh {
+  position: absolute;
+  width: 228px;
+  height: 88px;
+}
+header .logo .en {
+  position: absolute;
+  top: 80px;
+}
+header .banner {
+  float: right;
+  width: 858px;
+  height: 100%;
+}
+header .banner .triangle {
+  float: left;
+  width: 0;
+  height: 0;
+  border-bottom: 140px solid #e60201;
+  border-left: 58px solid transparent;
+}
+header .banner .content {
+  float: right;
+  width: 800px;
+  height: 100%;
+  background-color: #e60201;
+}
+header .banner .content .word {
+  float: left;
+  margin-top: 30px;
+  width: 670px;
+  text-align: center;
+}
+header .banner .content .word .sprit {
+  letter-spacing: 15px;
+  font-size: 45px;
+  color: #ece8e7;
+  font-weight: bold;
+}
+header .banner .content .word .contact {
+  margin-top: 10px;
+}
+header .banner .content .word .contact i {
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  transform: translate(-10px, 7px);
+  background: url(../img/icon_phone.png) no-repeat;
+}
+header .banner .content .word .contact span {
+  font-size: 35px;
+  font-weight: bold;
+  color: #ece8e7;
+  letter-spacing: 2px;
+}
+header .banner .content .qrcode {
+  float: right;
+  width: 130px;
+  height: 100%;
+  padding-top: 20px;
+}
+header .banner .content .qrcode img {
+  width: 92px;
+  height: 92px;
+}
+header .banner .content .qrcode span {
+  display: inline-block;
+  width: 92px;
+  font-size: 13px;
+  text-align: center;
+  color: #ece8e7;
+}
+section .title {
+  background-color: #51646b;
+  text-align: center;
+  height: 43px;
+  padding-top: 7px;
+  color: #333333;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+section .title .bg {
+  width: fit-content;
+  height: 34px;
+  line-height: 34px;
+  margin: 0 auto;
+  background-color: #95aaaf;
+  border-radius: 10px;
+}
+section .title .bg span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 12px;
+  background-color: #333333;
+}
+section.intro {
+  margin-top: 50px;
+}
+section.intro .main {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 850px;
+  height: 51px;
+  padding-left: 45px;
+  background: url(../img/intro_bg.png) no-repeat;
+  font-size: 19px;
+}
+section.intro .main p {
+  color: #3f3834;
+  text-shadow: 1px 1px 5px white;
+}
+section.intro .desc {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 1067px;
+  border-radius: 30px;
+  background-color: #e2f1f4;
+  color: #333;
+  font-size: 20px;
+  line-height: 120%;
+}
+section.machine {
+}
+section.machine .imgs {
+  display: flex;
+}
+section.machine .imgs img {
+  flex: 1;
+  width: 369px;
+  height: 520px;
+  box-shadow: 3px 3px 3px #333;
+  box-sizing: border-box;
+  padding: 0 5px 0 5px;
+}
+section.machine .imgs img:first-child {
+  padding-left: 0px;
+}
+section.shape {
+}
+section.shape .imgs {
+}
+section.shape .imgs img {
+  height: 288px;
+  width: 25%;
+}
+section.environment {
+}
+section.environment .imgs {
+  display: flex;
+}
+section.environment .imgs img {
+  display: 1;
+  width: 299px;
+  height: 395px;
+  margin-left: 2px;
+}
+section.environment .imgs img:first-child {
+  margin-left: 0px;
+}
+footer {
+  width: 1155px;
+  height: 175px;
+  margin-left: 45px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: url(../img/footer_bg.png) no-repeat;
+}
+footer .desc {
+  padding-top: 35px;
+  padding-left: 10px;
+  width: 600px;
+  text-align: center;
+}
+footer .desc .sprit {
+  font-size: 30px;
+  color: #ea6d0e;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #ece8e7;
+}
+footer .desc .address {
+  font-size: 20px;
+  margin-top: 10px;
+}
